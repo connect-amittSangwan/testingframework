@@ -1,22 +1,23 @@
 package apiTests;
 
-import base.TestBase;
+import base.BaseTest;
 import demoClient.RestClient;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class GetApiTest extends TestBase {
+public class GetApiTest extends BaseTest {
 
-    TestBase testBase;
+    BaseTest baseTest;
     String baseUrl;
     String apiUrl;
     String url;
 
+    //Initiallizing BaseTest Class Construction
     @BeforeMethod
     public void setUp() {
-        testBase = new TestBase();
+        baseTest = new BaseTest();
     }
 
     @Test

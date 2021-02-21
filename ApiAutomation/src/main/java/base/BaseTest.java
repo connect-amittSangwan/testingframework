@@ -5,12 +5,12 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class TestBase {
+public class BaseTest {
 
     public Properties properties = new Properties();
 
     //Base Class Constructor
-    public TestBase() {
+    public BaseTest() {
 
         {
             try {
