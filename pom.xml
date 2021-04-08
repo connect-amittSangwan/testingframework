@@ -12,6 +12,7 @@
         <module>selenium-automation</module>
         <module>ApiAutomation</module>
         <module>Pojo</module>
+        <module>CodingQuestions</module>
     </modules>
 
     <dependencies>
