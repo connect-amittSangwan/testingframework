@@ -2,6 +2,7 @@ public class Chapter_2_LambdaExpressionsContinued {
 
 //         # How to call/invoke lambda expressions ?
 //           ...using Functional Interfaces
+//           ...Functional interface objects is used to refer the lambda expressions.
 
     public static void main(String args[]){
 
