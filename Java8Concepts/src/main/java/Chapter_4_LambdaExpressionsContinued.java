@@ -27,6 +27,9 @@ public class Chapter_4_LambdaExpressionsContinued {
     return 0;
     }
     }
+
+    // Without curly braces we should not use return in lambda expressions.
+    // With curly braces return statement is mendatory.
      */
 
     public static void main(String arg[]){
